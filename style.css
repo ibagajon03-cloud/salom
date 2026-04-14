@@ -1,0 +1,291 @@
+.psht {
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1240px;
+  height: 700px;
+  display: block;
+}
+
+.str1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pjo {
+  display: block;
+  display: flex;
+  gap: 20px;
+}
+
+.imgtel {
+  display: none;
+}
+
+.tl1 {
+  display: none;
+}
+
+.texts {
+  color: white;
+  width: 235px;
+}
+
+.form-container {
+  background: #f5f5f5;
+  padding: 40px;
+  border-radius: 12px;
+  width: 350px;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2d2d3a;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #2f95c8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.buts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.box1 {
+  border: 3px solid grey;
+  width: 350px;
+  height: 375px;
+}
+
+.galava {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 100px;
+  background-color: #8EC2F2;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.sd {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.setoga {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rt1 {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 200px;
+  border: 3px solid grey;
+  padding: 10px;
+}
+
+.quti {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border: 3px solid grey;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.kaloni {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.zx {
+  display: flex;
+  flex-direction: column;
+}
+
+.utu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 50px;
+}
+
+.tj1 {
+  width: 230px;
+  height: 550px;
+  border: 3px solid grey;
+}
+
+.tj2 {
+  width: 230px;
+  height: 550px;
+  border: 3px solid grey;
+  background-color: #252B42;
+  position: relative;
+  bottom: 50px;
+}
+
+.pno {
+  margin-left: 20px;
+}
+
+.br {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.ud {
+  display: block;
+}
+
+@media (max-width: 510px) {
+  .imgtel {
+    display: block;
+    display: flex;
+    gap: 20px;
+  }
+  .pjo {
+    display: none;
+  }
+  .str1 {
+    position: relative;
+    right: 200px;
+  }
+  .psht {
+    display: none;
+  }
+  .tl1 {
+    display: block;
+  }
+  .av2 {
+    display: flex;
+    gap: 20px;
+  }
+  .av1 {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    margin-left: 50px;
+  }
+  .av3 {
+    margin-left: 230px;
+    font-size: 20px;
+  }
+  .av4 {
+    background-image: url(background\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 1200px;
+    display: block;
+  }
+  .conteiner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1050px;
+    align-items: center;
+  }
+  .setoga {
+    display: flex;
+    flex-direction: column;
+  }
+  .quti {
+    display: flex;
+    flex-direction: column;
+  }
+  .kaloni {
+    display: flex;
+    flex-direction: column;
+  }
+  .br {
+    display: flex;
+    flex-direction: column;
+  }
+  .re1 {
+    position: relative;
+    right: 350px;
+  }
+  .setoga {
+    margin-left: 100px;
+  }
+  .re2 {
+    position: relative;
+    right: 350px;
+  }
+  .quti {
+    margin-left: 120px;
+  }
+  .qw {
+    position: relative;
+    right: 350px;
+  }
+  .kaloni {
+    margin-left: 100px;
+  }
+  .br {
+    margin-left: 130px;
+  }
+  .ud {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
